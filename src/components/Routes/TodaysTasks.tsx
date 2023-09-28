@@ -4,7 +4,7 @@ import useTodayTasks from "../hooks/useTodayTasks";
 import LayoutRoutes from "../Utilities/LayoutRoutes";
 
 const TodaysTasks: React.FC = () => {
-  const todaysTasks = useTodayTaskslol();
+  const todaysTasks = useTodayTasks();
 
   useDescriptionTitle("Today's tasks", "Today's tasks");
 
