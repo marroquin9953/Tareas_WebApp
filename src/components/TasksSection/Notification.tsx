@@ -65,7 +65,7 @@ const Notification: React.FC = () => {
               )}
             </div>
           ) : (
-            <p>Nada que mostrar aquí.</p>
+            <p>Sin notificaciones que mostrar aquí.</p>
           )}
         </div>
       )}
