@@ -30,7 +30,7 @@ const TasksDone: React.FC = () => {
       {todaysTasks.length !== 0 && (
         <div className="mt-8">
           <span className="flex justify-between mb-2">
-            <span>Tasks today</span> {todayTasksDone.length}/
+            <span>Tareas hoy</span> {todayTasksDone.length}/
             {todaysTasks.length}
           </span>
           <div className="barProgress">
@@ -41,7 +41,7 @@ const TasksDone: React.FC = () => {
       {tasks.length !== 0 && (
         <div className="mt-6">
           <span className="flex justify-between mb-2">
-            <span>All tasks </span> {allTasksDone.length}/{tasks.length}
+            <span>Todas las tareas </span> {allTasksDone.length}/{tasks.length}
           </span>
           <div className="barProgress">
             <div style={{ width: percentageAllTasks + "%" }}></div>
@@ -51,13 +51,13 @@ const TasksDone: React.FC = () => {
 
       {todaysTasks.length === 0 && (
         <span className="mt-6 block pt-4 border-t-slate-200 dark:border-t-slate-700/[.3] border-t-2">
-          No tasks today
+          No hay tareas hoy
         </span>
       )}
 
       {todaysTasks.length > 0 && (
         <div className="mt-8">
-          <span className="mb-2 block">Today's tasks</span>
+          <span className="mb-2 block">Las tareas de hoy</span>
           <ul>
             {todaysTasksToShow.map((task) => (
               <li key={task.id} className="py-2 pl-6 text-slate-200 list-item">
@@ -67,7 +67,7 @@ const TasksDone: React.FC = () => {
           </ul>
           {showMore && (
             <Link to="/today" className="pl-6">
-              Show more
+             Mostrar más
             </Link>
           )}
         </div>

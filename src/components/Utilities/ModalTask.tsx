@@ -117,7 +117,7 @@ const ModalCreateTask: React.FC<{
         onSubmit={addNewTaskHandler}
       >
         <label>
-          Title
+        Titulo
           <input
             type="text"
             placeholder="e.g, study for the test"
@@ -128,7 +128,7 @@ const ModalCreateTask: React.FC<{
           />
         </label>
         <label>
-          Date
+        Fecha
           <input
             type="date"
             className="w-full"
@@ -140,7 +140,7 @@ const ModalCreateTask: React.FC<{
           />
         </label>
         <label>
-          Description (optional)
+        Descripcion (optional)
           <textarea
             placeholder="e.g, study for the test"
             className="w-full"
@@ -149,7 +149,7 @@ const ModalCreateTask: React.FC<{
           ></textarea>
         </label>
         <label>
-          Select a directory
+        Seleccione un directorio
           <select
             className="block w-full"
             value={selectedDirectory}
