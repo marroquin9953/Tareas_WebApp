@@ -27,7 +27,7 @@ O projeto teve principalmente como objetivo pôr em prática conhecimentos de Ty
 
 ## Como testar
 
-Você pode acessar o projeto aqui: 
+Você pode acessar o projeto aqui: https://tareas-webapp.netlify.app/
 
 
 ## Observações
