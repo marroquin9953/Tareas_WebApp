@@ -120,7 +120,7 @@ const ModalCreateTask: React.FC<{
         Titulo
           <input
             type="text"
-            placeholder="e.g, study for the test"
+            placeholder="por ejemplo, estudiar para el examen"
             required
             value={title}
             onChange={({ target }) => setTitle(target.value)}
@@ -142,7 +142,7 @@ const ModalCreateTask: React.FC<{
         <label>
         Descripcion (optional)
           <textarea
-            placeholder="e.g, study for the test"
+            placeholder="por ejemplo, estudiar matematicas"
             className="w-full"
             value={description}
             onChange={({ target }) => setDescription(target.value)}
@@ -169,12 +169,12 @@ const ModalCreateTask: React.FC<{
         <InputCheckbox
           isChecked={isImportant}
           setChecked={setIsImportant}
-          label="Mark as important"
+          label="Marcar como importante"
         />
         <InputCheckbox
           isChecked={isCompleted}
           setChecked={setIsCompleted}
-          label="Mark as completed"
+          label="Marcar como completado"
         />
         <button type="submit" className="btn mt-5">
           {nameForm}
