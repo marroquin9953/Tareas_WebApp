@@ -19,7 +19,7 @@ const TasksSection: React.FC = () => {
         <Route path="/important" element={<ImportantTasks />} />
         <Route
           path="/completed"
-          element={<DoneTasks done={true} title="Completed tasks" />}
+          element={<DoneTasks done={true} title="Completed tasks lol" />}
         />
         <Route
           path="/uncompleted"
