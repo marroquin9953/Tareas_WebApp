@@ -9,7 +9,7 @@ import { Task } from "../interfaces";
 
 const defaultTasks: Task[] = [
   {
-    title: "Task 1",
+    title: "Tarea 1",
     important: false,
     description: "This is the description for this task",
     date: "2023-04-12",
